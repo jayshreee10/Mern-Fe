@@ -1,0 +1,59 @@
+.todo-app {
+  text-align: center;
+  margin: 50px auto;
+  width: 400px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1em;
+  width: 250px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1em;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 1.2em;
+  border-bottom: 1px solid #ccc;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  opacity: 0.8;
+}
+
+li span {
+  cursor: pointer;
+}
